@@ -3,7 +3,7 @@ import { MuiThemeProvider } from "@material-ui/core";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
 import { theme } from "./themes/theme";
-import SideBar from "./pages/SideBar";
+import Layout from "./pages/Layout";
 import "./App.css";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route path="/">
-            <SideBar />
+            <Layout />
           </Route>
         </Switch>
       </BrowserRouter>

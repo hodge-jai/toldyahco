@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Paper, Button, Divider } from "@material-ui/core";
+import { Grid, Paper, Button, Divider, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 import logo4 from "../images/logo4.png";
@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     width: "20%",
-    height: "100vh",
+    height: "100%",
     justify: "flex-start",
     alignItems: "center",
   },
@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     background: "#FFFFFF",
     borderRadius: 0,
   },
-  buttonContainer: {
+  buttonGrid: {
     height: "65%",
   },
   sideBarButtons: {
@@ -45,11 +45,11 @@ const useStyles = makeStyles((theme) => ({
 export default function SideBar() {
   const classes = useStyles();
   return (
-    <Grid container className={classes.root}>
+    <Grid item xs className={classes.root}>
       <Paper className={classes.sidebarBackground}>
         <Grid className={classes.sideBarImage}></Grid>
-        <Grid className={classes.buttonContainer}>
-          <Divider className={classes.dividers} variant="middle"/>
+        <Grid className={classes.buttonGrid}>
+          <Divider className={classes.dividers} variant="middle" />
           <Button
             variant="contained"
             className={classes.sideBarButtons}
