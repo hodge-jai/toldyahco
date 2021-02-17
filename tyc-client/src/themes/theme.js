@@ -1,20 +1,24 @@
 import { createMuiTheme } from "@material-ui/core";
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from "@material-ui/core/styles";
 import { Button } from "@material-ui/core";
 
 export const theme = createMuiTheme({
   typography: {
-    fontFamily: '"Montserrat"',
     fontSize: 12,
+    fontWeight: "bold",
     subtitle1: {
       color: "#FF510C",
     },
-    h1: {
-      // could customize the h1 variant as well
-    }
+    button: {
+      fontFamily: "Roboto",
+      fontWeight: "bold",
+    },
+    h5: {
+      fontWeight: "bold",
+    },
   },
   palette: {
-    primary: { main: "#F8F8FF" },
-    secondary: { main: "#FF743D" }
-  }
+    primary: { main: "#FF0000" },
+    secondary: { main: "#DE6468" },
+  },
 });
