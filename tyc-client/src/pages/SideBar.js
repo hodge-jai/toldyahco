@@ -55,7 +55,7 @@ export default function SideBar() {
             className={classes.sideBarButtons}
             fullWidth
           >
-            Test Button
+            Generate Key Pair
           </Button>
           <Divider className={classes.dividers} variant="middle" />
           <Button
@@ -63,7 +63,7 @@ export default function SideBar() {
             className={classes.sideBarButtons}
             fullWidth
           >
-            Test Button
+            Sign/Verify Message
           </Button>
           <Divider className={classes.dividers} variant="middle" />
           <Button
@@ -71,7 +71,7 @@ export default function SideBar() {
             className={classes.sideBarButtons}
             fullWidth
           >
-            Test Button
+            Add Tags
           </Button>
         </Grid>
       </Paper>

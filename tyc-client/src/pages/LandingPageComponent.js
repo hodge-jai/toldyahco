@@ -25,7 +25,7 @@ export default function LandingPageComponent() {
   const classes = useStyles();
   return (
     <Grid container className={classes.root}>
-      <Paper className={classes.paper}>
+      <Paper className={classes.paper} elevation={3} square>
         <Typography variant="h5" gutterBottom> Welcome to ToldYahCo!</Typography>
         <Typography variant="h6" gutterBottom>
           {" "}

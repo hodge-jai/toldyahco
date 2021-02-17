@@ -2,6 +2,7 @@
 
 # dependencies
 /tyc-client/node_modules
+/tyc-backend/node_modules
 /.pnp
 .pnp.js
 
