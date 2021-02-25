@@ -8,6 +8,8 @@
 
 # testing
 /coverage
+/tyc-backend/tests/populatedb.js
+/tyc-backend/tests/crudtests.js
 
 # production
 /build
